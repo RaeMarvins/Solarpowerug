@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>School Website</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="sub-header2">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="Services.html">SERVICES</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>Our Services</h1>
+</section>
+
+<section class="course">
+	<h1>WHAT WE OFFER</h1>
+	
+
+	<div class="row">
+		<div class="course-col">
+			<h3>Solar PV Installation & Maintenance</h3>
+			<p>Our installations are carried out by highly experienced and competent technical team who ensure that quality installations are done with safety as a pre-requisite.
+            Prior to installations our Engineers carry out system sizing and design, and ensure that the best materials and equipment are supplied to our clients.</p>
+		</div>
+
+		<div class="course-col">
+			<h3>Electrical Installations</h3>
+			<p>We design industrial and domestic electrical wiring solutions and offer technical advice to our clients on the best energy efficient equipment. This ensures that our client receives total product satisfaction and as well realize savings in their electrical bills, and at the same time save our environment.
+            </p>
+		</div>
+
+		<div class="course-col">
+			<h3>Power Backup System Installation</h3>
+			<p>We provide stable and reliable energy back-up solutions to reduce on interruptions brought up by power outages from the national grid.
+Our various options for power back-up solutions include battery-based back-up system, solar PV systems and generators.</p>
+		</div>
+	</div>
+</section>
+
+<section class="facilities">
+	<h1>Our Services</h1>
+	
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="images/electrical.png">
+			<h3>PLANNING AND DESIGNING SOLAR ENERGY SOLUTION</h3>
+			<p>Assessment of Energy Needs<br> Site Assessment <br>Regulatory Compliance Budget and Financial Analysis <br>System Design <br>Energy Monitoring System <br>Maintenance Plan</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/power.png">
+			<h3>INSTALLATION OF SOLAR ENERGY SOLUTIONS</h3>
+			<p>Mounting Structure Installation <br>Electrical Wiring <br>Inverter Installation</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/Solar.png">
+			<h3>TESTING, COMMISSIONING OF INDUSTRIAL SOLAR ENERGY SOLUTIONS</h3>
+			<p>Visual Inspection <br>Electrical Testing <br>Insulation Resistance Test</p>
+			
+		</div>
+		
+	</div>
+	
+</section>
+
+
+
+
+
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p> Our aspiration is to be socially and environmentally responsible while accelerating growth in all sectors as we solve tomorrow’s problems today together with our technology partners through inexpensive proven and reliable clean energy technologies. <br>Unlike our competitors, we design and engineer every part of our solar solution to provide better performance, ease of use, and excellent value (ROI) over time, meeting our customers’ energy requirements – one customer at a time</p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-google"></i>
+
+	</div>
+	<p>Made by<i class="fa fa-google"></i>Mwesigwa Marvin</p>
+	
+</section>
+
+<!-----JS for menu----->
+<script >
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+</body>
+</html>

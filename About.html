@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>School Website</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="sub-header1">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="Services.html">SERVICES</a></li>
+					<li><a href="Contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>About Us</h1>
+</section>
+
+<!---About us content--->
+<SECTION class="about us">
+	<div class="row">
+		<div class="about-col">
+			<h1>Get to Know Us</h1>
+			<p>Solar Power Uganda Ltd is a service company dealing in sourcing, supplying, installation and servicing of solar PV systems, solar water heaters, power backup systems, streetlights, water pumping solutions and electrical works.
+
+            Our network of reputable international manufacturers ensures that the products and services offered to the community are of the best performance and quality standards; as such, honesty, trust, and expertise have won us a good reputation across the region as a contractor of choice for solar & electrical energy solutions.
+			</p>
+			<a href="" class="hero-btn red-btn">Explore Now</a>
+		</div>
+		<div class="about-col">
+			<img src="images/about.png">
+		</div>
+		
+	</div>
+	
+</SECTION>
+
+
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p> Our aspiration is to be socially and environmentally responsible while accelerating growth in all sectors as we solve tomorrow’s problems today together with our technology partners through inexpensive proven and reliable clean energy technologies. <br>Unlike our competitors, we design and engineer every part of our solar solution to provide better performance, ease of use, and excellent value (ROI) over time, meeting our customers’ energy requirements – one customer at a time</p>
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-google"></i>
+
+	</div>
+	<p>Made by <i class="fa fa-google"></i>Mwesigwa Marvin</p>
+	
+</section>
+
+<!-----JS for menu----->
+<script >
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+</body>
+</html>
